@@ -1,0 +1,49 @@
+{
+  "edition": "public",
+  "verified_on": "2026-09-22",
+  "original_files_included": false,
+  "private_material_required": false,
+  "sources": [
+    {
+      "id": "A",
+      "status": "published",
+      "authors": [
+        "Dong Lyu",
+        "Zi Wang",
+        "Ajay Kumar",
+        "Jia Jin"
+      ],
+      "year": 2026,
+      "online_publication_date": "2025-05-23",
+      "title": "Morality is for Social Being: The Role of Morality in Social-Adjustive Functional Attitudes Toward Counterfeit Luxury Consumption",
+      "journal": "Journal of Business Ethics",
+      "volume": "204",
+      "pages": "959–980",
+      "doi": "10.1007/s10551-025-06027-4",
+      "url": "https://doi.org/10.1007/s10551-025-06027-4"
+    },
+    {
+      "id": "B",
+      "status": "not_confirmed_for_public_distribution",
+      "details_disclosed": false,
+      "note": "Only generic writing methods are retained; no source file, title, manuscript detail or original-file hash is distributed."
+    },
+    {
+      "id": "C",
+      "status": "published",
+      "authors": [
+        "Elizabeth Han",
+        "Dezhi Yin",
+        "Han Zhang"
+      ],
+      "year": 2023,
+      "title": "Bots with Feelings: Should AI Agents Express Positive Emotion in Customer Service?",
+      "journal": "Information Systems Research",
+      "volume": "34",
+      "issue": "3",
+      "pages": "1296–1311",
+      "doi": "10.1287/isre.2022.1179",
+      "url": "https://doi.org/10.1287/isre.2022.1179"
+    }
+  ]
+}

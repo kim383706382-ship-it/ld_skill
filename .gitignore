@@ -1,0 +1,37 @@
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+~$*
+
+# Credentials and environments
+.env
+.env.*
+*.pem
+*.key
+.venv/
+__pycache__/
+
+# Private references, manuscripts, extracted text, screenshots and local renders
+private-references/
+private-original/
+private-work/
+drafts/
+render/
+screenshots/
+excerpts/
+source-text/
+publication-audit/
+
+# Original reference assets must not be reintroduced accidentally
+skills/management-writing/assets/source-a-*
+skills/management-writing/assets/source-b-*
+skills/management-writing/assets/source-c-*
+*.pdf
+*.doc
+*.docx
+*.zip
+*.png
+*.jpg
+*.jpeg

@@ -1,0 +1,6 @@
+interface:
+  display_name: "management_writing"
+  short_description: "中英文管理学论文的叙事、理论推导、结果呈现与段落修改审批"
+  default_prompt: "请使用 $management-writing，按三篇范文提炼的管理学写作风格处理我的稿件。保持研究事实与证据，段落结构调整先提出方案并等待我的同意。"
+policy:
+  allow_implicit_invocation: true
