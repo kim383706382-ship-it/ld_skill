@@ -1,5 +1,7 @@
 # Change log
 
+> 当前状态（2026-09-25）：用户已明确授权将新版合并至 main。项目客户端已安装同一技能内容，且一次实际调用中的中英文推导、方法润色和段落审批检查通过。以下“未合并／未安装”描述保留为相应阶段的历史记录；原质量对照结论不变，不宣称稳定优于旧版。
+
 ## v0.2 completion candidate — 2026-09-25
 
 - Continue the preserved candidate on actual upstream history.

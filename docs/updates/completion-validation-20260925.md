@@ -1,5 +1,7 @@
 # Completion campaign — 2026-09-25
 
+> 当前状态（2026-09-25）：用户已明确授权将新版合并至 main。项目客户端已安装同一技能内容，且一次实际调用中的中英文推导、方法润色和段落审批检查通过。以下“未合并／未安装”描述保留为相应阶段的历史记录；原质量对照结论不变，不宣称稳定优于旧版。
+
 Status: stopped under the approved two-development-round condition; improvement gate not met. No release or client installation.
 
 Baseline: `1af668787d62a285eef46b56013372aeca3bf610`. Final candidate payload: `8772d06b763cee0b1ebd562730ef02645beec1bcaee41e0bef87d30e4175bd97`. The previous campaign and all unsuccessful candidate records remain preserved.
