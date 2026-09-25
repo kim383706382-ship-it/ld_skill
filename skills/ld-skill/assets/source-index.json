@@ -1,6 +1,6 @@
 {
   "edition": "public",
-  "verified_on": "2026-09-22",
+  "verified_on": "2026-09-25",
   "original_files_included": false,
   "private_material_required": false,
   "sources": [
@@ -44,6 +44,20 @@
       "pages": "1296–1311",
       "doi": "10.1287/isre.2022.1179",
       "url": "https://doi.org/10.1287/isre.2022.1179"
+    },
+    {
+      "id": "D",
+      "status": "specific_manuscript_version_not_confirmed_public",
+      "details_disclosed": false,
+      "role": "later_literature_review_and_hypothesis_development_material",
+      "note": "Generic transferable writing methods are reflected in reference 09; no manuscript-specific content or bibliography is distributed."
+    },
+    {
+      "id": "E",
+      "status": "specific_manuscript_version_not_confirmed_public",
+      "details_disclosed": false,
+      "role": "later_literature_review_and_hypothesis_development_material",
+      "note": "Generic transferable writing methods are reflected in reference 09; no manuscript-specific content or bibliography is distributed."
     }
   ]
 }
