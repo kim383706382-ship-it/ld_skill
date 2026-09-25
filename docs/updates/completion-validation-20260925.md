@@ -31,3 +31,6 @@ Only generic rules, original fictional scenarios and sanitized summaries are inc
 ## Subsequent candidate upload
 
 After the repository-owner installation was authorized, the user requested upload of the latest candidate. It is submitted on an isolated branch for a draft PR, not as a quality-passed release. Earlier statements about unavailable remote writes describe the evaluation closure state. No behavioral rules or evaluation results changed; the quality gate remains unmet, with no merge or client deployment.
+
+
+2026-09-25 后续授权：用户明确要求将候选完整安装到当前项目试用，替代先前等待质量门槛通过才安装的安排。质量结论保持不变；不据此合并主分支。实际安装与调用验证状态由本地安装清单记录。

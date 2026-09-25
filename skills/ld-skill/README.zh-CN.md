@@ -22,4 +22,8 @@
 
 [SKILL.md](SKILL.md)负责入口和路由；原01–08指南保留全文写作与证据边界，[09理论指南](references/09-literature-and-hypothesis-development.md)提供条件化推导方法。[旧场景](tests/scenarios.md)与[理论场景](tests/hypothesis-development-scenarios.md)是检验材料，文件中历史状态不代表当前版本已经通过测试。
 
-本包不包含原始论文、私人精读或真实稿件。来源边界见[来源说明](references/06-exemplars-and-provenance.md)。原创示例说明写法，不是研究证据；引用事实需另行核对实际来源。具体版本的实测结论以[仓库验证记录](https://github.com/kim383706382-ship-it/ld_skill/tree/main/docs/updates)和随交付提供的本地报告为准，不能从文件结构推断。
+本包不包含原始论文、私人精读或真实稿件。来源边界见[来源说明](references/06-exemplars-and-provenance.md)。原创示例说明写法，不是研究证据；引用事实需另行核对实际来源。具体版本的实测结论以[仓库验证记录](https://github.com/kim383706382-ship-it/ld_skill/tree/2a1306a7a1198996565c1ba383796fb068c131ec/docs/updates)和随交付提供的本地报告为准，不能从文件结构推断。
+
+## 当前试用状态
+
+本版已完成规则编写，已测任务未发现硬性错误或确认的实质退步，但尚未证明稳定优于旧版，完整留出测试未完成。用户可明确选择备份旧版后在项目中试用；试用部署不代表改善门槛通过。具体安装状态与回滚位置见该次安装清单。
