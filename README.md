@@ -1,12 +1,12 @@
-# management_writing
+# ld_skill
 
 **让研究问题更清楚，让理论推导更连贯，让每一个结论都有证据支撑。**
 
-management_writing 是面向中英文管理学实证论文的 AI 写作 Skill。它将论文精读中总结的写作方法整理为一套可复用的指引，帮助 AI 在起草、润色和修订时，把研究问题、理论解释与实证证据连接起来。
+ld_skill 是面向中英文管理学实证论文的 AI 写作 Skill。它将论文精读中总结的写作方法整理为一套可复用的指引，帮助 AI 在起草、润色和修订时，把研究问题、理论解释与实证证据连接起来。
 
 从引言如何引出问题，到假设如何逐步推导，再到结果如何准确呈现，它关注论文各部分的论证任务，也关注句子之间的信息衔接。你提供研究材料与写作目标，Skill 为写作过程提供一致的表达原则和修改边界。
 
-[查看写作指引](skills/management-writing/SKILL.md) · [详细使用说明](skills/management-writing/README.zh-CN.md) · [修改权限](skills/management-writing/references/07-editing-permissions.md)
+[查看写作指引](skills/ld-skill/SKILL.md) · [详细使用说明](skills/ld-skill/README.zh-CN.md) · [修改权限](skills/ld-skill/references/07-editing-permissions.md)
 
 ## 它可以帮你做什么
 
@@ -38,34 +38,34 @@ management_writing 是面向中英文管理学实证论文的 AI 写作 Skill。
 
 **润色已有段落**
 
-> 请使用 $management-writing 润色以下中文理论段落。保留研究事实、构念和引用；段落内可以调整句式与句序，段落结构变动先提出方案，等我同意后再执行。
+> 请使用 $ld-skill 润色以下中文理论段落。保留研究事实、构念和引用；段落内可以调整句式与句序，段落结构变动先提出方案，等我同意后再执行。
 
 **依据材料起草**
 
-> 请使用 $management-writing，根据我提供的研究背景和文献笔记起草引言。把研究问题与理论解释连接起来，材料未支持的事实和引用请标注待补充。
+> 请使用 $ld-skill，根据我提供的研究背景和文献笔记起草引言。把研究问题与理论解释连接起来，材料未支持的事实和引用请标注待补充。
 
 **进行中英转写**
 
-> 请使用 $management-writing，将以下内容改写为自然的学术英文。保持原段落边界、构念、引用和证据强度，不要求逐句直译。
+> 请使用 $ld-skill，将以下内容改写为自然的学术英文。保持原段落边界、构念、引用和证据强度，不要求逐句直译。
 
 ## 安装与使用
 
-将仓库中的整个 `skills/management-writing/` 文件夹复制到本地技能目录，保留全部子目录。已有同名版本时先备份。
+将仓库中的整个 `skills/ld-skill/` 文件夹复制到本地技能目录，保留全部子目录。已有同名版本时先备份。
 
-Codex 用户级安装后的预期位置为：
+Codex 项目级安装后的预期位置为：
 
 ```text
-~/.agents/skills/management-writing/SKILL.md
+<项目目录>/.agents/skills/ld-skill/SKILL.md
 ```
 
-在支持该调用方式的 Codex CLI／IDE 中，可用 `$management-writing` 显式提及。安装后需在当前客户端确认技能已被识别；下载仓库或在聊天中输入名称不等于已经加载。
+在支持该调用方式的 Codex CLI／IDE 中，可用 `$ld-skill` 显式提及。安装后需在当前客户端确认技能已被识别；下载仓库或在聊天中输入名称不等于已经加载。
 
-仓库与界面显示名称为 `management_writing`，内部 Skill 标识和目录名称为 `management-writing`。完整说明见[使用文档](skills/management-writing/README.zh-CN.md)。
+仓库与界面显示名称为 `ld_skill`，内部 Skill 标识和目录名称为 `ld-skill`。完整说明见[使用文档](skills/ld-skill/README.zh-CN.md)。
 
 ## 仓库内容
 
 ```text
-management_writing/
+ld_skill/
 ├── README.md
 ├── .gitignore
 ├── .gitattributes
@@ -73,25 +73,37 @@ management_writing/
 ├── PUBLICATION.md
 ├── checksums.sha256
 └── skills/
-    └── management-writing/
+    └── ld-skill/
         ├── SKILL.md
         ├── README.zh-CN.md
         ├── agents/openai.yaml
-        ├── references/               # 八份写作、权限与检查指引
+        ├── references/               # 原八份指引＋09理论专项指引
         ├── assets/source-index.json  # 公开书目信息与来源边界
-        └── tests/scenarios.md        # 12个待行为验证的场景
+        └── tests/                    # 原12个场景＋新增15个理论场景
 ```
+
+## 当前候选与验证
+
+本轮在前次候选上细化[文献综述与假设发展指南](skills/ld-skill/references/09-literature-and-hypothesis-development.md)：按缺口选择修复，区分思考动机与解释依据，让比较沿同一维度展开，并以原创例子说明方法的适用限制。原八份指南、旧场景和段落权限保持。
+
+名称由 `management_writing` / `management-writing` 统一为 `ld_skill` / `ld-skill`。仓库更名不会自动迁移客户端；安装时先备份旧目录，避免重复入口。
+
+本轮两次开发修订均未达到约定的改善门槛，已停止验收，保留候选及现有客户端安装；没有发布或安装新版。最终对照实际完成60/88次计划写作和30/44组配对，28次留出写作未运行。见[本轮验证记录](docs/updates/completion-validation-20260925.md)。上轮已完成的88次运行及未达门槛结论保留在[历史记录](docs/updates/hypothesis-development-validation.md)，不算作本轮成绩。上述安装方法是一般说明，不表示该候选已获准替换现有版本。
 
 ## 来源与当前版本
 
 写作方法由三篇参考材料的精读形成，主要涉及消费者行为与人机互动实证研究，覆盖标题、摘要、引言、理论、方法、结果、讨论及图表附录。它们提供写法参考，不构成所有管理学体裁或统计方法的通用规范。
 
-中文表达是依据共同叙事原则作出的语言适配。当前版本仍需通过实际稿件持续校准；行为测试与用户新稿验收尚未完成，也不保证任何客户端都会自动调用。Skill 用于写作与表达，不替代文献核查、研究设计或统计判断。
+中文表达是依据共同叙事原则作出的语言适配。写作效果需要结合具体任务检验；不同轮次的测试与安装状态分别记录，不能以规则更多或文件可读取推断质量提升。Skill 用于写作与表达，不替代文献核查、研究设计或统计判断。
 
-公开仓库保留自行总结的写作方法、公开文献引用与 DOI，不附三篇原始 PDF／Word、论文页面截图、大段原文摘录或未确认可公开的稿件内容。使用规则不依赖私人原件。详情见[来源说明](skills/management-writing/references/06-exemplars-and-provenance.md)和[公开整理记录](PUBLICATION.md)。
+公开仓库保留自行总结的写作方法、公开文献引用与 DOI，不附三篇原始 PDF／Word、论文页面截图、大段原文摘录或未确认可公开的稿件内容。使用规则不依赖私人原件。详情见[来源说明](skills/ld-skill/references/06-exemplars-and-provenance.md)和[公开整理记录](PUBLICATION.md)。
 
 私人材料应放入 `.gitignore` 已排除的 `private-references/` 等目录，避免误提交。本仓库未添加开放许可证，公开可访问不代表获得第三方材料的再分发授权。
 
 可在仓库根目录运行 `shasum -a 256 -c checksums.sha256` 检查文件完整性。
 
 技术格式参考：[Agent Skills Specification](https://agentskills.io/specification) · [OpenAI — Build skills](https://developers.openai.com/codex/skills)。这些资料用于说明技能格式与使用方式，不是管理学写作方法的来源。
+
+### 候选上传状态
+
+此分支用于提交最新候选的草稿 PR，方便查看改动；不是验收通过的正式版本。此前远程权限问题已通过目标账号的 Connector 安装授权修复。写作改善门槛仍未通过，暂不合并主分支或替换客户端；完整结果见[验证摘要](docs/updates/completion-validation-20260925.md)。

@@ -1,12 +1,12 @@
 ---
-name: management-writing
-description: Use when drafting, rewriting, polishing, or revising Chinese or English empirical management manuscripts, including abstracts, introductions, theory, hypotheses, methods, results, and discussions, or when the user asks for the management-writing style learned from the three reference papers. Not for general conversation, coding, or choosing statistical models.
+name: ld-skill
+description: Use when drafting, rewriting, polishing, or revising Chinese or English empirical management manuscripts, including abstracts, introductions, theory, hypotheses, methods, results, and discussions, or when the user asks for the ld-skill style learned from the approved reference papers. Not for general conversation, coding, or choosing statistical models.
 ---
 
-# management_writing｜管理学论文写作
+# ld_skill｜管理学论文写作
 
 ## 任务与目标
-以三篇认可范文为依据，采用同一套中英文管理学论文叙事与论证原则：具体问题引出解释需要，理论说明作用过程，研究逐步回答问题，结果与结论保留证据的原有强度。中文、英文均直接写成自然的学术正文；不把中文当作英文的逐句直译。参考资料主要来自消费者行为与人机互动实证论文，不等于所有管理学体裁的通用方法规范。
+以用户认可范文及后续确认的专项学习材料为依据，采用同一套中英文管理学论文叙事与论证原则：具体问题引出解释需要，理论说明作用过程，研究逐步回答问题，结果与结论保留证据的原有强度。中文、英文均直接写成自然的学术正文；不把中文当作英文的逐句直译。参考资料主要来自消费者行为与人机互动实证论文，不等于所有管理学体裁的通用方法规范。
 
 ## 修改权限：先检查再动笔
 **原段落内**可改措辞、句法、句序、句间衔接、冗余表达，但保留原主张、引用对应关系与段落任务。
@@ -22,6 +22,7 @@ description: Use when drafting, rewriting, polishing, or revising Chinese or Eng
 2. 判断是起草、段内修订、结构建议还是中英转写；先检查段落权限。仅询问无法从材料解决且会改变任务方向、授权或事实的问题。
 3. 必读[双语与段落](references/02-bilingual-prose.md)及[来源与范例](references/06-exemplars-and-provenance.md)的适用部分，再按任务读取：
    - 标题、摘要、引言、文献、理论、假设：[论证规则](references/01-narrative-and-argument.md)。
+   - 文献综述与假设发展：进一步读取[逐环论证](references/09-literature-and-hypothesis-development.md)，按缺口选择修复，区分处理动机与解释依据，完成对应比较及假设回溯；不同标题的理论发展部分同样适用。
    - 研究概览、预实验、样本、程序、测量：[研究与方法](references/03-studies-and-methods.md)。
    - 数据分析与结果、统计外观：[结果规则](references/04-results-and-statistics.md)。
    - 小讨论、总讨论、贡献、启示、局限、结论、图表附录：[讨论与呈现](references/05-discussion-and-presentation.md)。
@@ -34,7 +35,7 @@ description: Use when drafting, rewriting, polishing, or revising Chinese or Eng
 沿用目标稿件的有效格式；新稿无指定规范时采用结果文件中的统一默认。范文中的模型、置信水平、控制变量、剔除规则及神经解释不是默认分析方案。发现来源内部矛盾，保留并指出，不悄悄替作者修正。
 
 ## 交付
-按要求给可用的正文或修改稿。结构审批用一份短方案集中询问，其他重要问题少量单列。提供中英双版仅在用户要求时；双语覆盖不代表每次都双倍输出。学习范文的论证功能，不复制其独特表述到新论文。v0.1为来源支撑的初版；语言适配示例不是已完成的用户验收。
+按要求给可用的正文或修改稿。结构审批用一份短方案集中询问，其他重要问题少量单列。提供中英双版仅在用户要求时；双语覆盖不代表每次都双倍输出。学习范文的论证功能，不复制其独特表述到新论文。理论专项模块提供条件化方法与原创示例；语言适配、规则完整性与用户对成稿的认可分别记录，不能互相替代。
 
 ## 公开版来源说明
 本版保留写作规则，不附原始论文、私人稿件或原文长段摘录。上述必读文件均随仓库提供；使用这些方法不要求读取未分发的原件或私人目录。涉及来源事实核对时，通过来源文件中的公开引用查证；无法取得材料时明确标注未核对，不把缺失材料当作已经读过。
